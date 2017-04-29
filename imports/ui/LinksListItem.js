@@ -61,17 +61,3 @@ export default class LinksListItem extends React.Component {
   }
 
 }
-
-
-
-// export default (props) => {
-//   return (
-//     <div>
-//       <ul>
-//         <li>{props.url}</li>
-//         <li>{props.shortUrl}</li>
-//       </ul>
-//
-//     </div>
-//   );
-// }

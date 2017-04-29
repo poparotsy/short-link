@@ -2,22 +2,6 @@ import React from 'react';
 import {Accounts} from 'meteor/accounts-base';
 
 
-// export default class PrivateHeader extends React.Component {
-//   logout() {
-//     Accounts.logout();
-//   }
-//   render() {
-//
-//     return (
-//       <div>
-//         <p>{this.props.title}</p>
-//         <button onClick={this.logout.bind(this)}>Logout</button>
-//       </div>
-//     );
-//   }
-// }
-
-
 const PrivateHeader = (props) => {
   return (
     <div className="header">

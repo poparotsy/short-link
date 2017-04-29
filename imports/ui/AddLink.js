@@ -21,7 +21,6 @@ constructor(props) {
 
       Meteor.call('links.insert', url, (err, res) => {
         if(!err) {
-          // this.setState({url: '', isOpen: false, error: ''});
           this.handleModalClose();
         } else {
           this.setState({error: err.reason})

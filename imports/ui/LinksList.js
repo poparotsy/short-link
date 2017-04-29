@@ -24,7 +24,6 @@ export default class LinksList extends React.Component{
       }).fetch();
       // this.setState({links: links});
       this.setState({links}); // ES6 syntax
-      // console.log(this.state.links);
     });
 
   };
@@ -47,7 +46,6 @@ export default class LinksList extends React.Component{
     return this.state.links.map((link) => {
       const shortUrl = Meteor.absoluteUrl(link._id);
       return <LinksListItem key={link._id} shortUrl={shortUrl} {...link}/>
-      // return <li key={link._id}>{link.url}</li>
     });
   };
 
