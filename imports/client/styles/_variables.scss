@@ -2,9 +2,13 @@
 $gray: #ddd;
 $white: #fff;
 $black: #000;
-$brand-primary: #5b4681;
+$orang: #FF5733;
+$cool-green: #2ECC71;
+//$brand-primary: #5b4681;
+$brand-primary: $cool-green;
 $light-gray: #f9f9f9;
 $dark-gray: #777;
+
 
 // Space
 $space: 1.4rem;
@@ -31,7 +35,7 @@ $button--secondary-border-color: $gray;
 
 // header
 
-$header-bg: $brand-primary;
+$header-bg: $cool-green;
 $header-color: $white;
 $site-max-width: 50rem;
 
